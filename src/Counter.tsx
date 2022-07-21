@@ -39,10 +39,7 @@ const Counter = props => {
             justifyContent: 'center',
             alignItems: 'center',
           }}
-          onPress={() => {
-            console.log('Increase Counter:::', props.reduxIncreaseCounter);
-            props.reduxIncreaseCounter;
-          }}>
+          onPress={props.reduxIncreaseCounter}>
           <Text>+</Text>
         </TouchableOpacity>
 
